@@ -28,5 +28,5 @@ function displayTime(){
 
 
 }
-
-setinterval(displayTime, 10)
+// This interval determines how often my function "displayTime" is activated. In this case, its activated every half a second
+setInterval(displayTime, 500)
